@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="resetcss" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <title>Quadro De Medalhas</title>
+
+</head>
+<body>
+
+    <header>
+        <h1>Kenzie Olympics</h1>
+    </header>
+
+    <main>
+
+        <section class="pesquisa">
+            <div>
+                <p>Search</p>
+            </div>
+            <div id="filtro">
+                <input class="input-pesquisa" type="text" placeholder="Search by country"><button class="filtro-pesquisa">Search</button>
+            </div>
+            <p id="descricao">Ex: Brasil</p>
+        </section>
+
+        <div class="scroll">
+        <table class="table-striped">
+            <thead>
+                <tr>
+                    <th class="celula-posicao table-header"><div><button class="filtro-posicao"> Position ^ </button></div></th>
+                    <th class="celula-pais table-header"> Country </th>
+                    <th class="celula-ouro table-header"><div><button class="filtro-ouro"> Gold ^ </button></div></th>
+                    <th class="celula-prata table-header"><div><button class="filtro-prata"> Silver ^ </button></div></th>
+                    <th class="celula-bronze table-header"><div><button class="filtro-bronze"> Bronze ^ </button></div></th>
+                    <th class="celula-total table-header"> Total </th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+    
+    </main>
+
+    <script type="module" src="./src/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+
+
+header {
+    background: #364FC7;
+    width: 100%;
+    height: 43px;
+    text-align: center;
+    color: white;
+    font-family: Inter;
+}
+
+.pesquisa {    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #E9ECEF;;
+}
+
+p {
+    margin: 5px 0px 4px 2px;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+#descricao {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #868E96;
+}
+
+input {
+    width: 290px;
+    height: 25px;
+    border: 2px solid #F5F5F5;
+    border-radius: 8px;
+    text-align: left;
+}
+
+button.filtro-pesquisa {
+    margin-left: 10px;
+    background: #364FC7;
+    border: 1.4px solid #364FC7;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #F5F5F5;
+    height: 30px;
+    width: 87px;
+}
+
+th {
+    background: #364FC7;
+    height: 10px;
+    color:#F5F5F5;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+th > div > button {
+    background: #4058CA;
+    border-style: none;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #F5F5F5;
+    height: 25px;
+    width: 70px;
+}
+
+tr {
+    text-align: center;
+}
+
+table {
+    width: 600px;
+    margin: 0px;
+    table-layout: auto;
+}
+
+tr:nth-child(even) {
+    background: #E9ECEF;
+}
+
+.flag {
+    width: 28px;
+    height: 20px;
+}
+
+.scroll {
+    overflow: auto;
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    margin-top: 0px;
+}
+
+@media (min-width: 1074px) {
+
+    table {
+        width: 100%;
+    }
+}
