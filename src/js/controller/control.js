@@ -1,7 +1,7 @@
 export class Table {
 
     static listCountries(obj) {
-        console.log(obj)
+
         const table = document.querySelector('table');
         const body  = document.querySelector('tbody');
 
@@ -53,18 +53,18 @@ export class Table {
     };
 
     static sortGold(data) {
-
+        
         return data.sort((a, b) => (a.medal_gold > b.medal_gold ? -1 : 0));
     };
 
     static sortSilver(data) {
 
-        return data.sort((a, b) => (a.medal_silver - b.medal_silver)).reverse();
+        return data.sort((a, b) => (a.medal_silver > b.medal_silver? -1 : 0));
     };
 
     static sortBronze(data) {
 
-        return data.sort((a, b) => (a.medal_bronze - b.medal_bronze)).reverse();
+        return data.sort((a, b) => (a.medal_bronze > b.medal_bronze ? -1 : 0));
     };
 };
 
