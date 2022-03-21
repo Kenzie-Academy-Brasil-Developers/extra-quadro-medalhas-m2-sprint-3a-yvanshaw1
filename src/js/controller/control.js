@@ -57,14 +57,14 @@ export class Table {
         return data.sort((a, b) => (a.medal_gold > b.medal_gold ? -1 : 0));
     };
 
-    // static sortSilver(data) {
+    static sortSilver(data) {
 
-    //     return data.sort((a, b) => (a.medal_silver - b.medal_silver)).reverse();
-    // };
+        return data.sort((a, b) => (a.medal_silver - b.medal_silver)).reverse();
+    };
 
-    // static sortBronze(data) {
+    static sortBronze(data) {
 
-    //     return data.sort((a, b) => (a.medal_bronze - b.medal_bronze)).reverse();
-    // };
+        return data.sort((a, b) => (a.medal_bronze - b.medal_bronze)).reverse();
+    };
 };
 

@@ -33,12 +33,24 @@ btnGold.addEventListener('click', () => {
     const newData = Table.sortGold(Data);
     
     Table.listCountries(newData);
-
-    
 });
 
-// const btnSilver   = document.querySelector('.filtro-prata');
-// btnSilver.addEventListener('click', Table.sortSilver());
+const btnSilver   = document.querySelector('.filtro-prata');
+btnSilver.addEventListener('click', () => {
 
-// const btnBronze   = document.querySelector('.filtro-bronze');
-// btnBronze.addEventListener('click', Table.sortBronze());
+    body.innerHTML = ``;
+
+    const newData = Table.sortSilver(Data);
+    
+    Table.listCountries(newData);
+});
+
+const btnBronze   = document.querySelector('.filtro-bronze');
+btnBronze.addEventListener('click', () => {
+
+    body.innerHTML = ``;
+
+    const newData = Table.sortBronze(Data);
+    
+    Table.listCountries(newData);
+});
